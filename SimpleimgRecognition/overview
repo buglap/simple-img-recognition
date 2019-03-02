@@ -1,11 +1,12 @@
-Build an non powerfull image recognition model (10 diferents categories
+Build an non powerfull image recognition model (10 diferents categories)
+using the (cifar-10) dependencies: the images for train our model.
 
--(cifar-10) dependencies: the images for train our model
-C:\Program Files\Python36\Lib\site-packages\tensorflow\python\keras\datasets
+
+They could be find in a direction like this C:\Program Files\Python36\Lib\site-packages\tensorflow\python\keras\datasets
 or can get it here: https://www.cs.toronto.edu/~kriz/cifar.html
 
-for get the images get net cifar10.py that if it is it in your keras\datasets
-you can find it here https://github.com/tensorflow/tensorflow/blob/r1.12/tensorflow/python/keras/datasets/cifar10.py
+for get the images we need cifar10.py that, if it is not in your keras\datasets
+you can find it here = https://github.com/tensorflow/tensorflow/blob/r1.12/tensorflow/python/keras/datasets/cifar10.py
 
 
     tf.keras.datasets.cifar10.load_data()
